@@ -8,8 +8,12 @@
 
 
 #
-- [部署视频教程](https://www.youtube.com/watch?v=dzxezRV1v-o)
-- [serv00所有部署教程](https://www.youtube.com/playlist?list=PLGVQi7TjHKXaVlrHP9Du61CaEThYCQaiY)
+- [部署视频教程](https://youtu.be/zkGGklEaO2I)
+- huggingface部署青龙面板定时保活教程：[点击进入观看](https://youtu.be/J4lcIwBowmM)
+- VLESS免费节点部署视频教程：[点击进入观看](https://youtu.be/dPH63nITA0M) 
+- Trojan免费节点部署视频教程：[点击进入观看](https://youtu.be/uh27CVVi6HA) 
+- serv00所有部署教程：[点击进入观看](https://www.youtube.com/playlist?list=PLGVQi7TjHKXaVlrHP9Du61CaEThYCQaiY)
+- Cloudflare部署免费节点所有视频教程：[点击进入观看](https://www.youtube.com/playlist?list=PLGVQi7TjHKXbrY0Pk8gm3T7m8MZ-InquF) 
 
 ## 一、实现serv00帐号定时保活（keep_serv00_ssh.yml），默认每5天定时保活
 找到项目点 Settings -> 左边点 Secrets and variables -> 点 Actions -> 在 Secrets 增加下面变量,根据自己的数据填 
