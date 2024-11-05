@@ -1,5 +1,5 @@
 # [am-serv00-github-action](https://github.com/amclubs/am-serv00-github-action)
-通过GitHub Action 实现serv00、socks5、vmess节点等在serv00里部署的程序保活、serv00帐号保活,并可TG通过
+通过GitHub Action 实现serv00、socks5、vmess、x-ui面板、哪吒面板、节点等在serv00里部署的程序保活、serv00帐号保活,并可TG通过
 
 #
 ▶️ **新人[YouTube](https://youtube.com/@AM_CLUB)** 需要您的支持，请务必帮我**点赞**、**关注**、**打开小铃铛**，***十分感谢！！！*** ✅
