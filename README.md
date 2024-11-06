@@ -44,7 +44,27 @@
 }
 
 ```
-配置服务器，格式为：["IP/域名,用户名,密码"]="s5(socket5标识符),端口1;vmess(服务标识符),端口2,Argo隧道域名,Argo隧道token或json;nezha-dashboard(服务标识符),端口3"
+1、格式为："IP/域名,用户名,密码":"s5(socket5标识符),socket5端口;vmess(服务标识符),vmess端口,Argo隧道域名,Argo隧道token或json;nezha-dashboard(服务标识符),vmess端口"
+- 例如：部署一台服务器，socks5一个应用
+```
+{
+    "s8.serv00.com,username1,password1":"s5,10000"
+}
+```
+- 例如：部署一台服务器，socks5、vmess两个应用
+```
+{
+    "s8.serv00.com,username1,password1":"s5,10000;vmess,50000,vmess.abc.xyz,token"
+}
+```
+- 例如：部署三台服务器，服务器一部署了nezha-dashboard，服务器二部署了socks5、x-ui，服务器三部署了x-ui、nezha-dashboard、vmess
+```
+{
+    "s8.serv00.com,username1,password1":"nezha-dashboard,10000",
+    "s9.serv00.com,username2,password2":"s5,20000;x-ui,30000",
+    "s11.serv00.com,username3,password3":"x-ui,30000;nezha-dashboard,40000;vmess,50000,vmess.abc.xyz,token"
+}
+```
 
 - TG通知变量（非必填）：CHAT_ID
 ```
