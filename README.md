@@ -35,7 +35,7 @@
 
 ## 二、实现serv00、socks5、vmess节点等自动外部保活（keep_serv00.yml），默认每5小时保活
 找到项目点 Settings -> 左边点 Secrets and variables -> 点 Actions -> 在 Secrets 增加下面变量,根据自己的数据填
-- 帐号信息变量（必填）：SERVERS_JSON
+- 应用信息变量（必填）：SERVERS_JSON
 ```
 {
     "s8.serv00.com,username1,password1":"s5,10000",
